@@ -19,7 +19,7 @@ http.createServer(function(request, response) {
         });
         // TODO: How do we set the content type we're sending back?
         response.writeHead(200, {
-            'content-type':'application/json'
+            'Content-Type':'application/json'
         });
 
         // TODO: How do we serialize responseData to a JSON string?
